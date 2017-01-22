@@ -222,7 +222,6 @@
 
 .nav-sm .nav.child_menu li.active,
 .nav-sm .nav.side-menu li.active-sm {
-    border-right: 5px solid #1ABB9C
 }
 
 .nav-sm ul.nav.child_menu ul,
@@ -877,18 +876,17 @@ a:focus {
     background: #425668;
     bottom: auto;
     content: "";
-    height: 8px;
+   
     left: 23px;
     margin-top: 15px;
     position: absolute;
     right: auto;
-    width: 8px;
+   
     z-index: 1;
     border-radius: 50%
 }
 
 .nav-md ul.nav.child_menu li:after {
-    border-left: 1px solid #425668;
     bottom: 0;
     content: "";
     left: 27px;
@@ -2205,7 +2203,6 @@ h4.graph_title {
 .tile-stats {
     position: relative;
     display: block;
-    margin-bottom: 12px;
     border: 1px solid #E4E4E4;
     -webkit-border-radius: 5px;
     overflow: hidden;
@@ -2531,6 +2528,7 @@ button,
     border-radius: 0;
     border-left: none;
     border-right: none;
+
     overflow: auto
 }
 
@@ -4935,4 +4933,25 @@ ul.notifications {
 .dropzone {
     min-height: 300px;
     border: 1px solid #e5e5e5
+}
+.upload-drop-zone {
+  height: 100px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 100px;
+  text-align: center
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+.icon-smaller{
+    font-size:0.75em;
 }
